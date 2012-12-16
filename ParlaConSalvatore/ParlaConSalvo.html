@@ -1,0 +1,79 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta http-equiv="imagetoolbar" content="no" />
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<meta name="author" content="" />
+	<meta name="copyright" content="" />	  
+	<meta name="revisit-after" content="3 days" />
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+
+
+<title> PARLA CON SALVATORE </title>
+
+
+<script>
+
+//alert("Sei pronto a leggere frasi dette dal mitico Salvatore?");
+//alert("Allora partiamo!!");
+
+
+
+//Stampo frase
+function frase() {
+	frasi = new Array();
+
+	//Frasi    ok
+	frasi[0] = "Che minchia guaddi";
+
+	frasi[1] = "Che minchia guaddi2";
+
+	frasi[2] = "Che minchia guaddi3";
+
+	ran = Math.floor(3 * Math.random());
+
+     alert(frasi[ran]); 
+     };
+</script>
+
+</head>
+<body>
+
+<ul class="hide"><li><a href="#body">Skip to content</a></li></ul>
+<div id="container">
+	<div id="header">
+	    <h1>PARLA CON SALVATORE</h1>		
+	</div>
+    
+	<div id="body">
+		<ul id="nav">
+			<li class="on first"><a href="ParlaConSalvo.html">Parla con</a></li>
+			<li><a href="salvoChi.html">Salvo chi?</a></li>
+		</ul>
+		<div id="content"><div>
+			<div id="main">
+				<h2>Benvenuti</h2>
+				<p>Ecco Parla con Salvo! La pagina interattiva dove puoi leggere le migliori frasi del celeberrimo Salvatore Lo Presti!</p>
+				
+				<ul>
+					<li><span>Clicca sul Bottone sottostante per far generare una frase di Salvatore!</span></li>
+					<input type="button" value="Genera Frase" onclick="frase()">
+				</ul>
+				<p>Vestibulum molestie, nisl sed commodo pellentesque, risus justo sollicitudin nisl, sed accumsan 
+				diam lacus quis augue.</p>			
+			</div>
+			<div id="sub">
+				<p><img src="img/salvo.JPG" alt="An image" /></p>
+			</div>
+		</div></div>	
+	</div>
+	
+	<div id="footer">
+		<p class="left">&copy; 2012 Antonio</p>
+	</div>	
+</div>	
+
+
+</body>
+</html>
